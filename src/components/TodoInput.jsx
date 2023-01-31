@@ -58,7 +58,7 @@ const StyledAddTodoActionContainer = styled.div`
     font-size: 13px;
     color: var(--major);
     padding-right: 5px;
-    display: none;
+    // display: none;
   }
 
   &.active {
@@ -67,15 +67,32 @@ const StyledAddTodoActionContainer = styled.div`
     }
   }
 `;
-const TodoInput = () => {
+const TodoInput = ({ newTodoInputValue, onSetNewTodoValue, onAddNewTodo }) => {
   return (
-    <StyledAddTodoContainer>
+    <StyledAddTodoContainer
+      className={newTodoInputValue.trim().length > 0 ? 'active' : ''}
+    >
       <StyledLabelIcon className="icon" htmlFor="add-todo-input" />
       <StyledInputContainer>
-        <input id="add-todo-input" type="text" placeholder="新增工作" />
+        <input
+          id="add-todo-input"
+          type="text"
+          placeholder="新增工作"
+          value={newTodoInputValue}
+          onChange={(e) => {
+            onSetNewTodoValue(e.target.value);
+          }}
+          onKeyDown={(e) => {
+            if (e.key === 'Enter') {
+              onAddNewTodo();
+            }
+          }}
+        />
       </StyledInputContainer>
       <StyledAddTodoActionContainer>
-        <button className="btn-reset">新增</button>
+        <button className="btn-reset" onClick={onAddNewTodo}>
+          新增
+        </button>
       </StyledAddTodoActionContainer>
     </StyledAddTodoContainer>
   );
