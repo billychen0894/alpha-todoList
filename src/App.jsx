@@ -1,3 +1,4 @@
+import { AuthProvider } from 'contexts/AuthContext';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.scss';
 import { TodoPage, LoginPage, SignUpPage, HomePage } from './pages';
@@ -6,12 +7,14 @@ function App() {
   return (
     <div className="app">
       <BrowserRouter>
-        <Routes>
-          <Route path="/todo" element={<TodoPage />} />
-          <Route path="/login" element={<LoginPage />} />
-          <Route path="/signup" element={<SignUpPage />} />
-          <Route path="*" element={<HomePage />} />
-        </Routes>
+        <AuthProvider>
+          <Routes>
+            <Route path="/todos" element={<TodoPage />} />
+            <Route path="/login" element={<LoginPage />} />
+            <Route path="/signup" element={<SignUpPage />} />
+            <Route path="*" element={<HomePage />} />
+          </Routes>
+        </AuthProvider>
       </BrowserRouter>
     </div>
   );
