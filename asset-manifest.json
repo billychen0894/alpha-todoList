@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/billychen0894/alpha-todoList/static/css/main.81e9703d.chunk.css",
+    "main.js": "/billychen0894/alpha-todoList/static/js/main.afd918fb.chunk.js",
+    "main.js.map": "/billychen0894/alpha-todoList/static/js/main.afd918fb.chunk.js.map",
+    "runtime-main.js": "/billychen0894/alpha-todoList/static/js/runtime-main.03891694.js",
+    "runtime-main.js.map": "/billychen0894/alpha-todoList/static/js/runtime-main.03891694.js.map",
+    "static/js/2.ea2cbe67.chunk.js": "/billychen0894/alpha-todoList/static/js/2.ea2cbe67.chunk.js",
+    "static/js/2.ea2cbe67.chunk.js.map": "/billychen0894/alpha-todoList/static/js/2.ea2cbe67.chunk.js.map",
+    "static/js/3.01b133ac.chunk.js": "/billychen0894/alpha-todoList/static/js/3.01b133ac.chunk.js",
+    "static/js/3.01b133ac.chunk.js.map": "/billychen0894/alpha-todoList/static/js/3.01b133ac.chunk.js.map",
+    "index.html": "/billychen0894/alpha-todoList/index.html",
+    "static/css/main.81e9703d.chunk.css.map": "/billychen0894/alpha-todoList/static/css/main.81e9703d.chunk.css.map",
+    "static/js/2.ea2cbe67.chunk.js.LICENSE.txt": "/billychen0894/alpha-todoList/static/js/2.ea2cbe67.chunk.js.LICENSE.txt",
+    "static/media/ac-logo.f4e0f3cb.svg": "/billychen0894/alpha-todoList/static/media/ac-logo.f4e0f3cb.svg",
+    "static/media/check-active.95ca055c.svg": "/billychen0894/alpha-todoList/static/media/check-active.95ca055c.svg",
+    "static/media/check-circle.30720b46.svg": "/billychen0894/alpha-todoList/static/media/check-circle.30720b46.svg",
+    "static/media/check-hover.5e00062b.svg": "/billychen0894/alpha-todoList/static/media/check-hover.5e00062b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.03891694.js",
+    "static/js/2.ea2cbe67.chunk.js",
+    "static/css/main.81e9703d.chunk.css",
+    "static/js/main.afd918fb.chunk.js"
+  ]
+}
