@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/alpha-todoList/static/css/main.81e9703d.chunk.css",
-    "main.js": "/alpha-todoList/static/js/main.afd918fb.chunk.js",
-    "main.js.map": "/alpha-todoList/static/js/main.afd918fb.chunk.js.map",
-    "runtime-main.js": "/alpha-todoList/static/js/runtime-main.297e6e4c.js",
-    "runtime-main.js.map": "/alpha-todoList/static/js/runtime-main.297e6e4c.js.map",
-    "static/js/2.9a0c1b36.chunk.js": "/alpha-todoList/static/js/2.9a0c1b36.chunk.js",
-    "static/js/2.9a0c1b36.chunk.js.map": "/alpha-todoList/static/js/2.9a0c1b36.chunk.js.map",
-    "static/js/3.01b133ac.chunk.js": "/alpha-todoList/static/js/3.01b133ac.chunk.js",
-    "static/js/3.01b133ac.chunk.js.map": "/alpha-todoList/static/js/3.01b133ac.chunk.js.map",
+    "main.js": "/alpha-todoList/static/js/main.a67ad383.chunk.js",
+    "main.js.map": "/alpha-todoList/static/js/main.a67ad383.chunk.js.map",
+    "runtime-main.js": "/alpha-todoList/static/js/runtime-main.30f1e6b6.js",
+    "runtime-main.js.map": "/alpha-todoList/static/js/runtime-main.30f1e6b6.js.map",
+    "static/js/2.287e242a.chunk.js": "/alpha-todoList/static/js/2.287e242a.chunk.js",
+    "static/js/2.287e242a.chunk.js.map": "/alpha-todoList/static/js/2.287e242a.chunk.js.map",
+    "static/js/3.abc290f4.chunk.js": "/alpha-todoList/static/js/3.abc290f4.chunk.js",
+    "static/js/3.abc290f4.chunk.js.map": "/alpha-todoList/static/js/3.abc290f4.chunk.js.map",
     "index.html": "/alpha-todoList/index.html",
     "static/css/main.81e9703d.chunk.css.map": "/alpha-todoList/static/css/main.81e9703d.chunk.css.map",
-    "static/js/2.9a0c1b36.chunk.js.LICENSE.txt": "/alpha-todoList/static/js/2.9a0c1b36.chunk.js.LICENSE.txt",
+    "static/js/2.287e242a.chunk.js.LICENSE.txt": "/alpha-todoList/static/js/2.287e242a.chunk.js.LICENSE.txt",
     "static/media/ac-logo.f4e0f3cb.svg": "/alpha-todoList/static/media/ac-logo.f4e0f3cb.svg",
     "static/media/check-active.95ca055c.svg": "/alpha-todoList/static/media/check-active.95ca055c.svg",
     "static/media/check-circle.30720b46.svg": "/alpha-todoList/static/media/check-circle.30720b46.svg",
     "static/media/check-hover.5e00062b.svg": "/alpha-todoList/static/media/check-hover.5e00062b.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.297e6e4c.js",
-    "static/js/2.9a0c1b36.chunk.js",
+    "static/js/runtime-main.30f1e6b6.js",
+    "static/js/2.287e242a.chunk.js",
     "static/css/main.81e9703d.chunk.css",
-    "static/js/main.afd918fb.chunk.js"
+    "static/js/main.a67ad383.chunk.js"
   ]
 }
